@@ -3,7 +3,7 @@ import { setCredentials, logOut } from "../../features/auth/authSlice";
 import { refreshAccessToken } from "../../utils/utilsFunc";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://cors-anywhere.herokuapp.com/https:https://jta.pythonanywhere.com/api/",
+  baseUrl: "https://jta.pythonanywhere.com/api",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
