@@ -1,0 +1,319 @@
+.searchBarChild {
+  height: 52px;
+  width: 655px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.searchByDate,
+.searchNormalIcon {
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.searchNormalIcon {
+  width: 24px;
+  min-height: 24px;
+}
+.searchByDate {
+  width: 139px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.searchBar {
+  width: 655px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-smi);
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.profileAvtarIcon {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  min-height: 52px;
+}
+.profileNotification,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.topHeader {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.jtaEmployeeTracker {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.jtaEmployeeTrackerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-5xl);
+}
+.shiftStart,
+.shiftStart1 {
+  position: relative;
+  display: inline-block;
+}
+.shiftStart {
+  min-width: 77px;
+}
+.shiftStart1 {
+  width: 77px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  color: var(--color-gray-300);
+  text-align: left;
+  padding: 0;
+}
+.button,
+.shiftStartParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-5xl);
+}
+.shiftStartParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 199px;
+  max-width: 266px;
+}
+.shiftEnd {
+  position: absolute;
+  top: 13px;
+  left: 24px;
+  display: inline-block;
+  min-width: 69px;
+}
+.button1 {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+  white-space: nowrap;
+}
+.shiftEnd1,
+.shiftEnd2 {
+  position: relative;
+  display: inline-block;
+  min-width: 69px;
+}
+.shiftEnd2 {
+  z-index: 1;
+  margin-left: -69px;
+}
+.shiftEndParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-black);
+}
+.shiftEnd3 {
+  width: 69px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  color: var(--color-gray-500);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.button2,
+.buttonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-5xl);
+  z-index: 1;
+}
+.buttonParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 199px;
+  max-width: 266px;
+  color: var(--color-gray-500);
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-3xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  margin-left: -35px;
+  box-sizing: border-box;
+  margin-bottom: -900px;
+}
+.abscent {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.frameInput {
+  margin: 0;
+  height: 21px;
+  width: 22px;
+}
+.abscentParent,
+.frameParent,
+.topHeaderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent,
+.topHeaderParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.topHeaderParent {
+  align-items: flex-end;
+  gap: var(--gap-24xl-9);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1025px) {
+  .topHeader {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .topHeaderParent {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .jtaEmployeeTracker {
+    font-size: var(--font-size-lgi);
+  }
+}
+
+/* -------------------------------------------------------- */
+.logoutButton {
+  background-color: #2b7666;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #27b697;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputField:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.submitButton {
+  background-color: #007BFF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.submitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.submitButton:hover:enabled {
+  background-color: #0056b3;
+}

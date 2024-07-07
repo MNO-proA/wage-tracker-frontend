@@ -1,0 +1,68 @@
+.frameParent,
+.tracker,
+.trackerInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 177px;
+  max-width: 100%;
+}
+.tracker,
+.trackerInner {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.trackerInner {
+  flex: 1;
+  flex-direction: column;
+  padding: 56.1px 0 0;
+  max-width: calc(100% - 267px);
+}
+.tracker {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 40px 0 0;
+  gap: 37px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    gap: 88px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .trackerInner {
+    padding-top: var(--padding-17xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .tracker {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 44px;
+  }
+  .trackerInner {
+    padding-top: 23px;
+    box-sizing: border-box;
+  }
+  .tracker {
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-3xl);
+  }
+}

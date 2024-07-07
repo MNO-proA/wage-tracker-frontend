@@ -1,0 +1,743 @@
+.id,
+.tableChild {
+  position: relative;
+}
+.tableChild {
+  align-self: stretch;
+  height: 452px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.id {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 1;
+}
+.wageColumn {
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.date,
+.staffName,
+.totalHours {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 1;
+}
+.staffName,
+.totalHours {
+  min-width: 79px;
+}
+.totalHours {
+  min-width: 82px;
+}
+.wageColumn1 {
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.totalWage {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.wageColumn2 {
+  width: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.accWage {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 1;
+}
+.wageHeader,
+.wageHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wageHeader {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-xl);
+}
+.wageHeaderWrapper {
+  width: 1102px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-25xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.tableItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.minusSquare {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  display: none;
+}
+.jta001,
+.minusSquare1 {
+  position: relative;
+  z-index: 1;
+}
+.minusSquare1 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.jta001 {
+  display: inline-block;
+  min-width: 54px;
+}
+.userItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-38xl) 0 0;
+  gap: var(--gap-5xl);
+  color: var(--color-darkslategray-100);
+}
+.emptyList,
+.jacobMarcus {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.jacobMarcus {
+  min-width: 114px;
+}
+.nameList {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.emptyList2 {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emptyList1 {
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.emptyList4 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emptyList3 {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.emptyList5 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rowList,
+.userRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.userRow {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rowList {
+  width: 1080px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.rowListChild {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rowList1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.jta002,
+.minusSquare2 {
+  position: relative;
+  z-index: 1;
+}
+.minusSquare2 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.jta002 {
+  display: inline-block;
+  min-width: 58px;
+}
+.minusSquareParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl) 0 0;
+  gap: var(--gap-5xl);
+  color: var(--color-darkslategray-100);
+}
+.div,
+.jacobMarcus1 {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.jacobMarcus1 {
+  min-width: 114px;
+}
+.parent {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.div1 {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapper {
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div2 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.container {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div3 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent,
+.rowList2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rowList2 {
+  width: 1080px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.rowListItem {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rowList3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.jta003,
+.minusSquare3 {
+  position: relative;
+  z-index: 1;
+}
+.minusSquare3 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.jta003 {
+  display: inline-block;
+  min-width: 58px;
+}
+.minusSquareGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl) 0 0;
+  gap: var(--gap-5xl);
+  color: var(--color-darkslategray-100);
+}
+.div4,
+.jacobMarcus2 {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.jacobMarcus2 {
+  min-width: 114px;
+}
+.group {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.div5 {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame {
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div6 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameDiv {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div7 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameGroup,
+.rowList4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rowList4 {
+  width: 1080px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.tableList,
+.tableListChild {
+  align-self: stretch;
+  max-width: 100%;
+}
+.tableListChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.tableList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.jta004,
+.minusSquare4 {
+  position: relative;
+  z-index: 1;
+}
+.minusSquare4 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.jta004 {
+  display: inline-block;
+  min-width: 59px;
+}
+.userHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) 0 0;
+  gap: var(--gap-5xl);
+  color: var(--color-darkslategray-100);
+}
+.emptyHeader,
+.jacobMarcus3 {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.jacobMarcus3 {
+  min-width: 114px;
+}
+.nameHeader {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.emptyData {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emptyHeader1 {
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.emptyData1 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emptyHeader2 {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.emptyData2 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.columnHeader,
+.dataHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dataHeader {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.columnHeader {
+  width: 1080px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.rowHeader,
+.rowHeaderChild {
+  align-self: stretch;
+  max-width: 100%;
+}
+.rowHeaderChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rowHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.jta005,
+.minusSquare5 {
+  position: relative;
+  z-index: 1;
+}
+.minusSquare5 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.jta005 {
+  display: inline-block;
+  min-width: 59px;
+}
+.minusSquareContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) 0 0;
+  gap: var(--gap-5xl);
+  color: var(--color-darkslategray-100);
+}
+.div8,
+.jacobMarcus4 {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.jacobMarcus4 {
+  min-width: 114px;
+}
+.parent1 {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.div9 {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapper1 {
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div10 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapper2 {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div11 {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameContainer,
+.rowHeaderInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rowHeaderInner {
+  width: 1080px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.rowHeaderItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rowHeader1,
+.table {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.table {
+  height: 452px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: var(--padding-sm) 0 var(--padding-58xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1125px) {
+  .wageHeaderWrapper {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .dataHeader,
+  .frameContainer,
+  .frameGroup,
+  .frameParent,
+  .userRow {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .wageHeader {
+    flex-wrap: wrap;
+  }
+  .table {
+    height: auto;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .group,
+  .nameHeader,
+  .nameList,
+  .parent,
+  .parent1 {
+    gap: var(--gap-5xl);
+  }
+}
