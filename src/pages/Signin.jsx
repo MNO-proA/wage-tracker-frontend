@@ -133,12 +133,12 @@ const Signin = () => {
             </form>
           </div>
           <div className={styles.footer}>
-            <div className={styles.poweredByQodexcoreContainer}>
-              <span className={styles.poweredByQodexcoreContainer1}>
-                <p className={styles.poweredBy}>Powered by</p>
-                <p className={styles.qodexcore}>Qodexcore</p>
-              </span>
-            </div>
+           
+           
+                <p className={styles.poweredBy}>Powered by Qodexcore</p>
+                <p className={styles.qodexcore}></p>
+              
+          
           </div>
         
         </div>

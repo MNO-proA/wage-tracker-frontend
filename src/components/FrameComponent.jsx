@@ -107,6 +107,7 @@ const FrameComponent = ({ className = "" }) => {
       toast.error("Failed to add track!");
     } finally{
       store.dispatch(TrackerApiSlice.endpoints.getTracks.initiate())
+      store.dispatch(absenceApiSlice.endpoints.getTracks.initiate())
     }
   };
 // =============================================================================
@@ -145,7 +146,7 @@ const handleLogout = async () => {
 // ============================================================================
 
   return (
-    <div className={`container ${className.frameWrapper}`} style={{marginBottom: "-30px"}}>
+    <div className={`container ${className.frameWrapper}`} style={{marginBottom: "-10px"}}>
   <div className="row mb-4">
   <div className="col-12 d-flex justify-content-between align-items-center">
     <label htmlFor="startDate" className="form-label">Search by Date</label>
@@ -219,6 +220,7 @@ const handleLogout = async () => {
                 id="staffName"
                 className="form-control"
                 value={staffName}
+                
                 onChange={(e) => setStaffName(e.target.value)}
               >
                 <option value="" disabled>Select Staff Name</option>
@@ -248,9 +250,9 @@ const handleLogout = async () => {
                   onChange={(e) => setAbsenceReason(e.target.value)}
                 >
                   <option value="" disabled>Select Absence Reason</option>
-                  <option value="Sick">Sick</option>
-                  <option value="Vacation">Vacation</option>
-                  <option value="Personal">Personal</option>
+                  <option value="sick">Sick</option>
+                  <option value="holiday">Holiday</option>
+                  <option value="personal">Personal</option>
                 </select>
               </div>
             </div>
